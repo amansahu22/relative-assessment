@@ -1,0 +1,41 @@
+
+.modalOne__input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 40px 9px 16px;
+    background: #14172B;
+    backdrop-filter: blur(50px);
+    border: 1px solid #9e44ffc5;
+    border-radius: 17px;
+    outline: none;
+}
+
+.modalOne__para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(175.25deg, rgba(158, 68, 255, 0.25) 3.56%, rgba(84, 62, 255, 0.25) 103.97%);
+    border: 1px solid #9E44FF
+    ;
+}
+
+
+.modalOne__scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.modalOne__scrollbar::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.modalOne__scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #9E44FF;
+}

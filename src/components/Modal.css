@@ -1,0 +1,18 @@
+.modal__backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: rgba(20, 23, 43, 0.4);
+    backdrop-filter: blur(80px);
+}
+
+.modal__container{
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 17px;
+}

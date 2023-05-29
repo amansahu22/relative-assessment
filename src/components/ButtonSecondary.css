@@ -1,0 +1,15 @@
+.button-secondary__container{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 8px 24px;
+    border-radius: 17px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    outline: none;
+    cursor: pointer;
+}
