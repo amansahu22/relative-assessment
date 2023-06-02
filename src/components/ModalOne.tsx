@@ -2,12 +2,6 @@ import {Assets,Button,Progress,} from '.'
 import {close} from '../assets'
 import './ModalOne.css'
 
-type asset = {
-    id:string,
-    url:string,
-    name:string
-}
-
 type ModalOneProps = {
     closeModal : () => void
     current: number
